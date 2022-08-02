@@ -1,10 +1,10 @@
 {
   "ads":"true",
   "update":[{
-    "version":"",
+    "version":"1",
     "title":"This app is now Open Source",
     "description":"The App is available",
-    "size":""
+    "size":"https://git.io/JeY69"
   }],
   "blocked":[
     {"id":0, "app":"com.android.game"},
@@ -16,6 +16,6 @@
     {"id":6, "app":"com.get.client"}
   ],
   "free":[
-    {"id":0, "file":0, "city":"isportbar","country":"isportbar","image":"germany","ip":"vpn.isportbar.com","active":"true","signal":"a"}
+    {"id":0, "file":0, "city":"Essen","country":"Germany","image":"germany","ip":"151.248.118.192","active":"true","signal":"a"}
   ]
 }
