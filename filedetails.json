@@ -4,6 +4,7 @@
 dev tap
 link-mtu 1300
 proto udp
+remote vpn.isportbar.com 20172
 auth-nocache
 resolv-retry infinite
 nobind
@@ -15,6 +16,8 @@ key-direction 1
 verb 3
 user nobody
 group nogroup
+#log A:\\openvpn-admin.log
+#status A:\\openvpn-admin-status.log
 <cert>
 -----BEGIN CERTIFICATE-----
 MIIFCjCCA/KgAwIBAgIBAjANBgkqhkiG9w0BAQsFADCBmDELMAkGA1UEBhMCUlUx
